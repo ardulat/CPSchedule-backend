@@ -1,0 +1,6 @@
+Listening for transport dt_socket at address: 55937
+23:11:49,150 INFO  ~ Starting /Users/macbookpro/Desktop/HelloWorld
+23:11:51,325 WARN  ~ You're running Play! in DEV mode
+23:11:51,645 INFO  ~ Listening for HTTP on port 8080 (Waiting a first request to start) ...
+~ Server is up and running
+23:11:59,669 INFO  ~ Application 'HelloWorld' is now started !

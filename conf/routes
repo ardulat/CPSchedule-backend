@@ -1,0 +1,30 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /getStudentById                         Application.getStudentById
+
+GET 	/getSubjectsById						Application.getSubjectsById
+
+GET		/getStudentsByName						Application.getStudentsByName
+
+GET		/getAllStudents							Application.getAllStudents
+
+GET		/getAllSubjects							Application.getAllSubjects
+
+GET     /insertStudent							Application.insertStudent
+
+GET 	/deleteStudentById						Application.deleteStudentById
+
+GET 	/insertActivity							Application.insertActivity
+
+GET 	/getActivitiesById						Application.getActivitiesById
+
+GET 	/deleteActivity							Application.deleteActivity
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
